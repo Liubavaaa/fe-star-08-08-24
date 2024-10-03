@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0c060;
+}
+
+.logo {
+    font-size: 50px;
+    margin-left: 240px;
+}
+
+.social-icons a {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #f0c060;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.invite-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+
+.feature_1 {
+    padding: 80px;;
+    background-color: rgb(224, 224, 224)
+   
+}
+
+._1{
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+._2{
+    padding: 32px;
+} 
+
+.feature_2 {
+    margin: 93px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.referral {
+    background-color: rgb(250, 201, 96);
+    padding: 40px;
+    text-align: center;
+    padding: 58px;
+    margin-bottom: 20px; 
+}
+
+._3{
+    padding-top: 31px;
+    padding-bottom: 33px;
+}
+
+footer {
+    padding: 100px;
+    font-size: 14px;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer{
+    padding: 20px;
+}

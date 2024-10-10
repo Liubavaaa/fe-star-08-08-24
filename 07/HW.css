@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/BG.img.png');
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.netflix-logo img {
+    width: 100px;
+}
+
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    margin-left: 10px;
+}
+
+.header-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+.show-info {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.genres {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.year-director {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    color: rgb(160, 160, 160);
+}
+
+.rating {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.stream-btn, .episodes-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.stream-btn {
+    background-color: #e50914;
+    color: white;
+}
+
+.episodes-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.popular-shows {
+    margin-top: 50px;
+}
+
+.popular-shows h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.shows-carousel {
+    display: flex;
+    gap: 20px;
+}
+
+.shows-carousel img {
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+}
